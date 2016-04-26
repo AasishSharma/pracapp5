@@ -1,50 +1,23 @@
-Pracapp5
-================
+Application
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+Features include:
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
+Home page
+Navigation bar
+About page
+Contact page with “contact request” form
+Mailing list sign-up form
+Additional Pages
 
-Rails Composer is supported by developers who purchase our RailsApps tutorials.
+The application uses the high_voltage gem for the About page.
 
-Problems? Issues?
------------
+Mailing List Opt-In
 
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
+The application home page contains a form that encourages a visitor to enter an email address to sign up for a mailing list. It can be used to collect email addresses for a newsletter or announcement mailings.
 
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
+Contact Form
 
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
+The Contact page includes a “contact request” form.
+When the visitor submits the form, an email message goes to the site owner containing the contents of the form.
 
-Ruby on Rails
--------------
-
-This application requires:
-
-- Ruby 2.2.3
-- Rails 4.2.6
-
-Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
-
-Getting Started
----------------
-
-Documentation and Support
--------------------------
-
-Issues
--------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
-
-License
--------
+No Database
